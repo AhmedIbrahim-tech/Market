@@ -1,0 +1,39 @@
+Project Structure (User)
+
+- Products
+	- Components
+	     - All Products
+	     - Product Details
+
+	- Services
+	     - Product.Service
+
+-----------
+
+- Carts
+	- Components
+	     - Carts
+
+	- Services
+	     - Carts.cd	Service
+
+-----------
+
+- Auth
+	- Components
+	     - Login
+		 - Register
+
+	- Services
+	     - Auth.Services
+		 - Guard.Service
+
+-----------
+
+- Shared
+	- Components
+		- navbar
+		- Select
+	
+	- Services
+		- Cats.Service
