@@ -1,1 +1,22 @@
-<p>all-products works!</p>
+<div class="box mt-5">
+
+    <div class="my-2 w-25">
+        <label for="" class="my-1">Categories</label>
+        <select class="form-control" (change)="FilterByCategory($event)">
+            <option value="All"> All </option>
+            <option value="{{item}}" *ngFor="let item of Categories"> {{item}} </option>
+        </select>
+        
+        <!-- <app-select [data]="Categories" [title]="'categories'" (SelectedData)="FilterByCategory($event)"></app-select> -->
+    </div>
+
+    <div class="row" *ngIf="!loading">
+        <div class="col-md-3 col-sm-12" *ngFor="let item of products">
+            <app-product [data]="item" (item)="AddToCart($event)"></app-product>
+        </div>
+    </div>
+
+    <div class="text-center w-100" *ngIf="loading">
+        <app-spinner></app-spinner>
+    </div>
+</div>

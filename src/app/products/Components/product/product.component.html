@@ -1,0 +1,16 @@
+<div class="item">
+    <img src="{{data.image}}" alt="">
+    <div class="body">
+        <h4>{{data.title}}</h4>
+        <p>{{data.description}}</p>
+    </div>
+
+    <div class="px-3 mb-2 d-flex justify-content-between align-items-center">
+        <button class="btn btn-success" *ngIf="!CheckAddProductToCart" (click)="CheckAddProductToCart = true"> Add To Cart</button>
+        <div class="d-flex w-50" *ngIf="CheckAddProductToCart">
+            <input type="number" min="0" class="form-control" [(ngModel)]="Amount">
+            <button class="btn btn-danger" (click)="AddToCart()">Add</button>
+        </div>
+        <span>{{data.price}} L.E</span>
+    </div>
+</div>
