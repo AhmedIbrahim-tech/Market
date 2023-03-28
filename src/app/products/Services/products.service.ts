@@ -21,4 +21,8 @@ export class ProductsService {
   GetProductsByCategory(Cate:string){
     return this.http.get(environment.APIURL + 'products/category/'+ Cate);
   }
+
+  GetProductsByid(id:number){
+    return this.http.get(environment.APIURL + 'products/'+ id);
+  }
 }

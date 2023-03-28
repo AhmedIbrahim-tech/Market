@@ -4,6 +4,7 @@ import { AllProductsComponent } from './Components/all-products/all-products.com
 import { ProductDetailsComponent } from './Components/product-details/product-details.component';
 import { SharedModule } from '../shared/shared.module';
 import { ProductComponent } from './Components/product/product.component';
+import { RouterModule } from '@angular/router';
 
 
 

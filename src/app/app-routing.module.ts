@@ -6,7 +6,7 @@ import { CartComponent } from './carts/Components/cart/cart.component';
 
 const routes: Routes = [
   {path : "Products" , component : AllProductsComponent},
-  {path:"details" , component : ProductDetailsComponent},
+  {path:"details/:id" , component : ProductDetailsComponent},
   {path:"Cart" , component:CartComponent},
 
   	// Last Route

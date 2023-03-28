@@ -11,7 +11,8 @@
     </div>
 
     <div class="row" *ngIf="!loading">
-        <div class="col-md-3 col-sm-12" *ngFor="let item of products">
+        <!-- routerlink ="details/{{item.id}}" -->
+        <div class="col-md-3 col-sm-12" *ngFor="let item of products" routerLink="/details/{{item.id}}" >
             <app-product [data]="item" (item)="AddToCart($event)"></app-product>
         </div>
     </div>

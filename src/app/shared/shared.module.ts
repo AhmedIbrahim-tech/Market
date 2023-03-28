@@ -25,7 +25,8 @@ import { SelectComponent } from './Components/select/select.component';
     HeaderComponent,
     SpinnerComponent,
     FormsModule,
-    SelectComponent
+    SelectComponent,
+    RouterModule
   ]
   
 })

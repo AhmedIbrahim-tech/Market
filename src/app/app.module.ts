@@ -13,6 +13,7 @@ import { ProductsModule } from './products/products.module';
   ],
   imports: [
     BrowserModule,
+    CommonModule,
     AppRoutingModule,
     SharedModule,
     ProductsModule
