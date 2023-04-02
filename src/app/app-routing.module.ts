@@ -10,7 +10,7 @@ const routes: Routes = [
   {path:"Cart" , component:CartComponent},
 
   	// Last Route
-  {path:"**" , redirectTo : "Products" , pathMatch : "full"}
+  {path:"**" , redirectTo : "Cart" , pathMatch : "full"}
 ];
 
 @NgModule({
