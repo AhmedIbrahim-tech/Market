@@ -17,6 +17,9 @@ import { RouterModule } from '@angular/router';
   imports: [
     CommonModule,
     SharedModule
+  ],
+  exports : [
+    ProductComponent
   ]
 })
 export class ProductsModule { }

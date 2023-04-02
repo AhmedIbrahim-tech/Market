@@ -37,3 +37,22 @@ Project Structure (User)
 	
 	- Services
 		- Cats.Service
+
+
+
+
+
+---------------------------------------------------------------
+
+Cart 
+
+1. List All Cart Products
+2. get items Price Total
+3. Mins Amount
+4. Plus Amount
+5. Detect Amount input change
+6. Delete Product
+7. Clear Cart
+8. Get Cart Products Length
+
+9. Send Cart to backEnd Api
