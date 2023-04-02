@@ -7,6 +7,7 @@ import { SharedModule } from './shared/shared.module';
 import { CommonModule } from '@angular/common';
 import { ProductsModule } from './products/products.module';
 import { CartsModule } from './carts/carts.module';
+import { AdminModule } from './admin/admin.module';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { CartsModule } from './carts/carts.module';
     AppRoutingModule,
     ProductsModule,
     CartsModule,
+    AdminModule,
     SharedModule
   ],
   providers: [],
