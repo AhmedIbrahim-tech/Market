@@ -6,6 +6,7 @@ import { environment } from 'src/environments/environment';
   providedIn: 'root'
 })
 export class AdminService {
+  APIURL:string = "https://fakestoreapi.com/";
 
   constructor(private http:HttpClient) { }
 
@@ -13,10 +14,10 @@ export class AdminService {
   getAllCarts(param?:any){
     let params = new HttpParams();
     params = params.append("startdate" , param?.start).append("enddate" , param?.end);
-    return this.http.get(environment.APIURL + 'carts' , {params});
+    return this.http.get(this.APIURL + 'carts' , {params});
   }
 
   DeleteCart(id:number){
-    return this.http.delete(environment.APIURL + 'carts/' + id);
+    return this.http.delete(this.APIURL + 'carts/' + id);
   }
 }

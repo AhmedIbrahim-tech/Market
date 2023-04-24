@@ -6,6 +6,7 @@ import { CartComponent } from './carts/Components/cart/cart.component';
 import { AdminComponent } from './admin/Components/admin/admin.component';
 
 const routes: Routes = [
+  {path:'' , redirectTo : "Products", pathMatch:"full"},
   {path : "Products" , component : AllProductsComponent},
   {path:"details/:id" , component : ProductDetailsComponent},
   {path:"Cart" , component:CartComponent},

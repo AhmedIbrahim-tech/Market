@@ -6,11 +6,12 @@ import { environment } from 'src/environments/environment';
   providedIn: 'root'
 })
 export class CartService {
+  APIURL:string = "https://fakestoreapi.com/";
 
   constructor(private http : HttpClient) { }
 
     createNewCart(model:any){
-      return this.http.post(environment.APIURL + 'carts' , model);
+      return this.http.post(this.APIURL + 'carts' , model);
   }
   
 }
