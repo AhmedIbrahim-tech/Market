@@ -6,11 +6,11 @@ https://fakestoreapi.com
 
 ## How Project is structured
 
-<img src ="./project structure.PNG" />
+<img src ="./Files/project structure.PNG" />
 
 ## Src Structure goes like
 
-<img src ="./Src Structure.PNG" />
+<img src ="./Files/Src Structure.PNG" />
 
 ## Client Side Technologies
 - Angular
@@ -30,5 +30,5 @@ You can cd into ECommerce.Client folder and do npm i to install the packages the
 ## Peek from the workshop
 https://ahmedibrahim-tech.github.io/Market/Products
 
-<img src ="./Market.png" />
-<img src ="./Shopping Cart.png" />
+<img src ="./Files/Market.png" />
+<img src ="./Files/Shopping Cart.png" />
