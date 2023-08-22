@@ -1,28 +1,34 @@
 # Market
 ## E-Commerce Project by Angular Framework
 
+## API
+https://fakestoreapi.com
+
+## How Project is structured
+
+<img src ="./project structure.PNG" />
+
+## Src Structure goes like
+
+<img src ="./Src Structure.PNG" />
+
+## Client Side Technologies
+- Angular
+- Bootstrap
+- ngx-bootstrap
+- Font Awesome
+- Lazy Loading
+- RXJS
+- Design Components
+
+## Client
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.9.
+You can cd into ECommerce.Client folder and do npm i to install the packages then ng serve.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Peek from the workshop
+https://ahmedibrahim-tech.github.io/Market/Products
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<img src ="./Market.png" />
+<img src ="./Shopping Cart.png" />
